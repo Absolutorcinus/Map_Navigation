@@ -4,9 +4,9 @@ Dungeon map is defined in input file. Each line specifies room name and connecti
 <p>a0 n:a3 <br>
 a1 e:a2 s:a3 <br>
 a2 s:a5 w:a1 <br>
-<p>a3 n:a1 s:a0 w:a4 <br>
-<p>a4 e:a3 s:b0 <br>
-<p>a5 n:a2 e:a6 <br>
+a3 n:a1 s:a0 w:a4 <br>
+a4 e:a3 s:b0 <br>
+a5 n:a2 e:a6 <br>
 a6 e:a7 s:a8 w:a5<br>
 a7 s:a9 w:a6 <br>
 a8 n:a6 e:a9 s:b6 <br>
