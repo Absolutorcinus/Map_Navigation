@@ -1,8 +1,8 @@
 # Map_Navigation
 Dungeon map is defined in input file. Each line specifies room name and connections to other rooms:
 
-a0 n:a3 
-a1 e:a2 s:a3 
+<p>a0 n:a3 </p>
+<p>a1 e:a2 s:a3 </p>
 a2 s:a5 w:a1 
 a3 n:a1 s:a0 w:a4 
 a4 e:a3 s:b0 
@@ -27,10 +27,9 @@ Implement simple game framework that allows you to interactively navigate throug
 
 implementation should display room name you are in, possible move directions and should react on your commands (by typing n, s, e or w)
 
-######################################################
-Simple output of minimum version:
-######################################################
-------------------------------
+
+*****Example of the output version:*****
+
 you are in room a0
 possible moves: n
 your choice:n
