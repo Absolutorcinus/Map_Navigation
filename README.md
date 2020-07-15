@@ -1,9 +1,9 @@
 # Map_Navigation
 Dungeon map is defined in input file. Each line specifies room name and connections to other rooms:
 
-<p>a0 n:a3 </p>
-<p>a1 e:a2 s:a3 </p>
-<p>a2 s:a5 w:a1 </p>
+<p>a0 n:a3 <br>
+a1 e:a2 s:a3 <br>
+a2 s:a5 w:a1 </p>
 <p>a3 n:a1 s:a0 w:a4 </p>
 <p>a4 e:a3 s:b0 </p>
 <p>a5 n:a2 e:a6 </p>
