@@ -3,41 +3,41 @@ Dungeon map is defined in input file. Each line specifies room name and connecti
 
 <p>a0 n:a3 </p>
 <p>a1 e:a2 s:a3 </p>
-a2 s:a5 w:a1 
-a3 n:a1 s:a0 w:a4 
-a4 e:a3 s:b0 
-a5 n:a2 e:a6 
-a6 e:a7 s:a8 w:a5 
-a7 s:a9 w:a6 
-a8 n:a6 e:a9 s:b6 
-a9 n:a7 w:a8 
-b0 n:a4 w:b1 
-b1 e:b0 s:b2 
-b2 n:b1 e:b3
-b3 e:b4 w:b2
-b4 e:b5 w:b3
-b5 e:b6 w:b4 
-b6 n:a8 w:b5 
+<p>a2 s:a5 w:a1 </p>
+<p>a3 n:a1 s:a0 w:a4 </p>
+<p>a4 e:a3 s:b0 </p>
+<p>a5 n:a2 e:a6 </p>
+<p>a6 e:a7 s:a8 w:a5 </p>
+<p>a7 s:a9 w:a6 </p>
+<p>a8 n:a6 e:a9 s:b6 </p>
+<p>a9 n:a7 w:a8 </p>
+<p>b0 n:a4 w:b1 </p>
+<p>b1 e:b0 s:b2 </p>
+<p>b2 n:b1 e:b3</p>
+<p>b3 e:b4 w:b2</p>
+<p>b4 e:b5 w:b3</p>
+<p>b5 e:b6 w:b4 </p>
+<p>b6 n:a8 w:b5 </p>
 
-a0 to b6 are room names (they can be any 2-character names for simplicity)
-n, s, e, w are doors leading to next rooms located north, south, east or west from current room.
+<p>a0 to b6 are room names (they can be any 2-character names for simplicity)
+n, s, e, w are doors leading to next rooms located north, south, east or west from current room.</p>
 
-Task:
-Implement simple game framework that allows you to interactively navigate through the dungeon (room by room) by typing move direction (n, s, e or w).
+<h>Task:</h>
+<p>Implement simple game framework that allows you to interactively navigate through the dungeon (room by room) by typing move direction (n, s, e or w).</p>
 
-implementation should display room name you are in, possible move directions and should react on your commands (by typing n, s, e or w)
+<p>implementation should display room name you are in, possible move directions and should react on your commands (by typing n, s, e or w)</p>
 
 
-*****Example of the output version:*****
+<h>*****Example of the output version:*****</h>
 
-you are in room a0
-possible moves: n
-your choice:n
-------------------------------
-you are in room a3
-possible moves: nsw
-your choice:w
-------------------------------
-you are in room a4
-possible moves: e
-your choice:
+<p>you are in room a0</p>
+<p>possible moves: n</p>
+<p>your choice:n</p>
+<p>------------------------------</p>
+<p>you are in room a3</p>
+<p>possible moves: nsw</p>
+<p>your choice:w</p>
+<p>------------------------------</p>
+<p>you are in room a4</p>
+<p>possible moves: e</p>
+<p>your choice:</p>
